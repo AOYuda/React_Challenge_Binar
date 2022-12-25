@@ -1,0 +1,56 @@
+.faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 0 136px;
+}
+.judul-faq {
+  width: 368px;
+}
+.judul-faq h3 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.faq h2,
+.faq button {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.item-faq {
+  width: 668px;
+  height: auto;
+}
+.list-faq {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.list-faq li {
+  width: auto;
+  height: 30px;
+  background-image: url(../Assets/img_list_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.list-item {
+  padding: 8px;
+  margin-bottom: 16px;
+  border-style: groove;
+  border-color: rgb(235, 235, 235);
+  border-width: 0.8px;
+}

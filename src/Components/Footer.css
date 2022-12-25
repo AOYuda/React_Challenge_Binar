@@ -1,0 +1,41 @@
+.footer {
+  margin: 150px 136px 100px 136px;
+  padding: 0px;
+  width: auto;
+}
+.contact {
+  width: 268px;
+  margin-right: 86px;
+}
+.nav-footer {
+  margin-right: 86px;
+}
+.nav-footer p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.socmed {
+  width: 268px;
+  margin-right: 86px;
+}
+.socmed img {
+  padding-right: 12px;
+  padding-bottom: 16px;
+}
+.contact p,
+.socmed p,
+.cr-binar p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.box {
+  width: 100px;
+  height: 34px;
+  background-color: blue;
+}

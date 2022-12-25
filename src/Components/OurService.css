@@ -1,0 +1,55 @@
+.our-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 0 207px;
+}
+.img-our-service {
+  margin-top: 105px;
+}
+.narasi-our-service {
+  width: 468px;
+  height: auto;
+}
+.narasi-our-service h3 {
+  margin-top: 136px;
+  width: 468px;
+  height: 72px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.narasi-our-service p {
+  width: 460px;
+  height: 80px;
+  margin-top: 30px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.list-os {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.list-os li {
+  width: auto;
+  height: 30px;
+  background-image: url(../Assets/img_list_icon.png);
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
