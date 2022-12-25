@@ -20,7 +20,7 @@ const Hero = () => {
         </button>
       </div>
       <div className="img-banner">
-        <img src={ImageMercy} alt="bmw" />
+        <img src={ImageMercy} alt="mercy" />
       </div>
     </section>
   );

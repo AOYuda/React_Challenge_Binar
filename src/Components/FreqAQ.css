@@ -7,7 +7,15 @@
   padding: 0 136px;
 }
 .judul-faq {
-  width: 368px;
+  width: 360px;
+}
+.judul-faq p {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .judul-faq h3 {
   font-family: "Arial";
@@ -48,9 +56,8 @@
   line-height: 20px;
 }
 .list-item {
-  padding: 8px;
+  padding: 0;
   margin-bottom: 16px;
-  border-style: groove;
-  border-color: rgb(235, 235, 235);
-  border-width: 0.8px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
 }

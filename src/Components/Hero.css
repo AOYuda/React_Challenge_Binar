@@ -3,9 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   width: auto;
-  height: 407px;
+  height: auto;
   background-color: #f1f3ff;
   padding-left: 9.4vw;
+  padding-top: 10vh;
 }
 
 .narasi-banner {
@@ -13,7 +14,7 @@
   height: auto;
   background-color: #f1f3ff;
 }
-/*.narasi-banner button {
+.narasi-banner button {
   font-family: Arial;
   font-size: 14px;
   font-weight: 700;
@@ -25,7 +26,7 @@
   padding: 8px 12px;
   margin-top: 6px;
   margin-bottom: 12px;
-}*/
+}
 .img-banner img {
   margin-top: 4px;
   width: 100%;
@@ -51,5 +52,5 @@
   letter-spacing: 0em;
   text-align: left;
   height: auto;
-  width: 32vw;
+  width: 33vw;
 }

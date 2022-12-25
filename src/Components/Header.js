@@ -9,7 +9,7 @@ const Header = () => {
     window.scrollTo(0, 0);
   };
   const handleClick = () => {
-    const element = document.getElementById("services, whyus, testi, faq-id");
+    const element = document.getElementById("services, why-us-id, testi, faq-id");
     element.scrollIntoView({ behavior: "smooth" });
   };
 

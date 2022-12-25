@@ -9,7 +9,7 @@ import IconTwitch from "../Assets/icon_twitch.png";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div class="d-flex flex-column">
+      <div class="d-flex">
         <div class="contact">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
