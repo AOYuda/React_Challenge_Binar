@@ -1,0 +1,95 @@
+.search-bar {
+  position: absolute;
+  top: 490px;
+  left: 196px;
+  width: 1047px;
+  height: 106px;
+  padding: 0px 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.nama-mobil,
+.kategori,
+.status {
+  width: auto;
+  height: auto;
+  margin: 4px;
+}
+.harga {
+  width: auto;
+  height: auto;
+  margin: 4px;
+}
+.form-option {
+  width: 204px;
+  height: 36px;
+  padding: 5px;
+  margin: 0px;
+}
+.form-option-harga {
+  width: 219px;
+  height: 36px;
+  padding: 5px;
+  margin: 0px;
+}
+.cari-mobil {
+  width: auto;
+  height: auto;
+  margin: 8px;
+  display: flex;
+  align-content: center;
+}
+.search-bar button {
+  width: 92px;
+  height: 36px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  background: #5cb85f;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-top: 35px;
+}
+.search-bar p {
+  margin-bottom: 4px;
+  padding-top: 18px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.search-bar option {
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.search-bar input {
+  height: 36px;
+  width: 208px;
+  left: 0px;
+  top: 22px;
+  border-radius: 2px;
+  padding: 9px 12px 9px 12px;
+  border-width: 0.1px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}

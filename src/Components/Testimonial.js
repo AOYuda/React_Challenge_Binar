@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
-import jhon from "../Assets/img_photo_testi1.png";
-import jinny from "../Assets/img_photo_testi2.png";
+import PhotoTesti1 from "../Assets/img_photo_testi1.png";
+import PhotoTesti2 from "../Assets/img_photo_testi2.png";
 import Rate from "../Assets/rate.png";
 import Leftbutton from "../Assets/Leftbutton.png";
 import Rightbutton from "../Assets/Rightbutton.png";
@@ -9,94 +9,77 @@ import Rightbutton from "../Assets/Rightbutton.png";
 const Testimonial = () => {
   return (
     <section id="testi" className="testimonial">
-      <div className="container mt-5 pt-3">
-        <div className="row text-center">
-          <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-            <h1 className="fw-bold">Testimonial</h1>
-            <h6 className="fw-bold">Berbagai review positif dari para pelanggan kami</h6>
-          </div>
-        </div>
-      </div>
-      <div className="container-fluid">
-        <div className="row g-5 justify-content-evenly d-flex flex-lg-row flex-nowrap">
-          <div className="col-lg-6">
-            <div className="card mt-5 mb-5 custom-card-testimoni">
-              <div className="row g-0">
-                <div className="col-2 col-md-4 mt-5 mb-5">
-                  <img src={jinny} alt="jhon" className="jhon img-fluid position-absolute top-50 start-0 translate-middle" />
-                </div>
-                <div className="col-6 col-md-7">
-                  <div className="card-body d-flex flex-column">
-                    <div className="h-100">
-                      <img src={Rate} alt="rate" className="img-fluid mt-5" />
-                      <p className="fw-bold mt-1">
+      <h3>Testimonial</h3>
+      <p class="narasi-testi">Berbagai review positif dari para pelanggan kami</p>
+
+      <div class=".container-md card-parent">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card-container-testi">
+                <div class="row g-0 card-container-row">
+                  <div class="col-md-3 card-container-column-image">
+                    <img src={PhotoTesti1} class="rounded mx-auto my-auto d-block" alt="..." />
+                  </div>
+                  <div class="col-md-9 card-container-colummn-rate">
+                    <div class="card-body card-container-rate">
+                      <img src={Rate} alt="..." />
+                      <p class="card-text card-naration">
                         “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod”
                       </p>
-                      <br />
+                      <p class="card-text-name">John Dee 32, Bromo</p>
                     </div>
                   </div>
                 </div>
-                <span id="text-name">John Dee 32, Bromo</span>
               </div>
             </div>
-          </div>
-
-          <div className="col-lg-6">
-            <div className="card mt-5 mb-5 custom-card-testimoni position-relative">
-              <div className="row g-0 customrow">
-                <div className="col-2 col-md-4 mt-5 mb-5">
-                  <img src={jhon} alt="jhon" className="jhon jhon2 img-fluid position-absolute top-50 start-0 translate-middle" />
-                </div>
-                <div className="col-6 col-md-7">
-                  <div className="card-body d-flex flex-column">
-                    <div className="h-100 jalansendiri">
-                      <div className="sijhon position-relative d-lg-none d-xxl-none d-md-none d-sm-none d-xl-none">
-                        <img src={jhon} alt="jhon" />
-                      </div>
-                      <img src={Rate} alt="rate" className="img-fluid mt-5" />
-                      <p className="fw-bold mt-1">
+            <div class="carousel-item">
+              <div class="card-container-testi">
+                <div class="row g-0 card-container-row">
+                  <div class="col-md-3 card-container-column-image">
+                    <img src={PhotoTesti2} class="rounded mx-auto my-auto d-block" alt="..." />
+                  </div>
+                  <div class="col-md-9 card-container-colummn-rate">
+                    <div class="card-body card-container-rate">
+                      <img src={Rate} alt="..." />
+                      <p class="card-text card-naration">
                         “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod”
                       </p>
-                      <br />
+                      <p class="card-text-name">John Dee 32, Bromo</p>
                     </div>
                   </div>
                 </div>
-                <span id="text-name">John Dee 32, Bromo</span>
               </div>
             </div>
-          </div>
-
-          <div className="col-lg-6">
-            <div className="card mt-5 mb-5 custom-card-testimoni">
-              <div className="row g-0">
-                <div className="col-2 col-md-4 mt-5 mb-5">
-                  <img src={jinny} alt="jhon" className="jhon img-fluid position-absolute top-50 start-0 translate-middle" />
-                </div>
-                <div className="col-6 col-md-7">
-                  <div className="card-body d-flex flex-column">
-                    <div className="h-100">
-                      <img src={Rate} alt="rate" className="img-fluid mt-5" />
-                      <p className="fw-bold mt-1">
+            <div class="carousel-item">
+              <div class="card-container-testi">
+                <div class="row g-0 card-container-row">
+                  <div class="col-md-3 card-container-column-image">
+                    <img src={PhotoTesti1} class="rounded mx-auto my-auto d-block" alt="..." />
+                  </div>
+                  <div class="col-md-9 card-container-colummn-rate">
+                    <div class="card-body card-container-rate">
+                      <img src={Rate} alt="..." />
+                      <p class="card-text card-naration">
                         “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod”
                       </p>
-                      <br />
+                      <p class="card-text-name">John Dee 32, Bromo</p>
                     </div>
                   </div>
                 </div>
-                <span id="text-name">John Dee 32, Bromo</span>
               </div>
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-evenly align-items-center">
-          <div className="btn di-pencet">
-            <button type="button" className="pencetKiri">
+        <div class="d-flex justify-content-evenly align-items-center">
+          <div class="btn di-pencet">
+            <button type="button" class="pencetKiri" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <img src={Leftbutton} alt="left" />
             </button>
-            <button type="button" className="pencetKanan">
+            <button type="button" class="pencetKanan" data-bs-target="#carouselExampleControls" data-bs-slide="next">
               <img src={Rightbutton} alt="right" />
             </button>
           </div>

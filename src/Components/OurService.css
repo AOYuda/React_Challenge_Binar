@@ -6,8 +6,10 @@
   height: auto;
   padding: 0 207px;
 }
-.img-our-service {
+.img-our-service img {
   margin-top: 105px;
+  width: 100%;
+  height: auto;
 }
 .narasi-our-service {
   width: 468px;
@@ -52,4 +54,43 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 20px;
+}
+
+@media (max-width: 375px) {
+  .our-service {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+    height: auto;
+    padding: 0 16px;
+  }
+  .img-our-service img {
+    margin-top: 60px;
+    padding: 0 40px;
+    width: 100%;
+    height: auto;
+  }
+  .narasi-our-service {
+    width: 328px;
+    height: auto;
+  }
+  .narasi-our-service h3 {
+    margin-top: 20px;
+    width: 328px;
+    height: 72px;
+  }
+  .narasi-our-service p {
+    width: 328px;
+    height: auto;
+    margin-top: 16px;
+  }
+  .list-os {
+    padding: 0;
+    list-style-type: none;
+  }
+  .list-os li {
+    width: 285px;
+    height: auto;
+  }
 }

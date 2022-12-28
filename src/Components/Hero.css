@@ -24,7 +24,6 @@
   border: none;
   border-radius: 2px;
   padding: 8px 12px;
-  margin-top: 6px;
   margin-bottom: 12px;
 }
 .img-banner img {
@@ -53,4 +52,30 @@
   text-align: left;
   height: auto;
   width: 33vw;
+}
+
+@media (max-width: 375px) {
+  .banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: auto;
+    height: auto;
+    background-color: #f1f3ff;
+    padding: 10vh 16px 0px 16px;
+  }
+  .banner h1 {
+    padding-top: 0px;
+  }
+  .narasi-banner {
+    width: auto;
+  }
+  .banner p {
+    width: auto;
+  }
+  .img-banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
 }

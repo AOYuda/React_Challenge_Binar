@@ -39,3 +39,15 @@
   height: 34px;
   background-color: blue;
 }
+
+@media (max-width: 375px) {
+  .footer {
+    margin: 60px 16px;
+    padding: 0px;
+    width: auto;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

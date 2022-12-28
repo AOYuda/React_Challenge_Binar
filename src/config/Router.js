@@ -10,6 +10,8 @@ import SearchBar from "../Components/SearchBar";
 import HeroBlank from "../Components/HeroBlank";
 import SearchBarResult from "../Components/SearchBarResult";
 import Cardcars from "../Components/Cardcars";
+import SearchBarDetail from "../Components/SearchBarDetail";
+import NarasiDetail from "../Components/NarasiDetail";
 
 // NOTES: each time you want to add new page, add it here
 
@@ -25,5 +27,9 @@ export const router = createBrowserRouter([
   {
     path: "/hasilpencarian",
     element: <RenderLayout children={[<HeroBlank />, <SearchBarResult />, <Cardcars />]} />,
+  },
+  {
+    path: "/detailmobil",
+    element: <RenderLayout children={[<HeroBlank />, <SearchBarDetail />, <NarasiDetail />]} />,
   },
 ]);

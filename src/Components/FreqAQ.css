@@ -7,15 +7,14 @@
   padding: 0 136px;
 }
 .judul-faq {
-  width: 360px;
+  width: 368px;
 }
-.judul-faq p {
+.faq p {
   font-family: Arial;
+  font-style: normal;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
 }
 .judul-faq h3 {
   font-family: "Arial";
@@ -60,4 +59,15 @@
   margin-bottom: 16px;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
+}
+
+@media (max-width: 375px) {
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    padding: 0 16px;
+    text-align: center;
+  }
 }

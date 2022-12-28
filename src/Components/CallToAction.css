@@ -26,15 +26,30 @@
   color: white;
   margin-bottom: 16px;
 }
-
 .layanan-sewa p {
-  margin: 0 253px 52px 253px;
+  margin: 0 286px 52px 286px;
   font-family: Arial;
   font-size: 14px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
-  height: 40px;
-  width: 468px;
   color: white;
+}
+
+@media (max-width: 375px) {
+  .layanan-sewa {
+    text-align: center;
+    margin: 16px;
+    padding: 58px;
+    background-color: #0d28a6;
+    border-radius: 13px;
+  }
+  .layanan-sewa h1 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  .layanan-sewa p {
+    margin: 0 5px 32px 5px;
+  }
 }

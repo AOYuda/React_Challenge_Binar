@@ -9,7 +9,7 @@ const Header = () => {
     window.scrollTo(0, 0);
   };
   const handleClick = () => {
-    const element = document.getElementById("services, why-us-id, testi, faq-id");
+    const element = document.getElementById("ourservice, why-us-id, testi, faq-id");
     element.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -28,10 +28,10 @@ const Header = () => {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 mb-2 me-5 text-link-style fw-bold">
-                  <NavLink onClick={handleClick} to="/#services" className="nav-link active nav-item px-3">
+                  <NavLink onClick={handleClick} to="/#ourservice" className="nav-link active nav-item px-3">
                     Our Services
                   </NavLink>
-                  <NavLink onClick={handleClick} to="/#whyus" className="nav-link active nav-item px-3">
+                  <NavLink onClick={handleClick} to="/#why-us-id" className="nav-link active nav-item px-3">
                     Why Us
                   </NavLink>
                   <NavLink onClick={handleClick} to="/#testi" className="nav-link active nav-item px-3">

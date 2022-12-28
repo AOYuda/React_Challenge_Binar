@@ -58,3 +58,28 @@
   line-height: 20px;
   color: #000000;
 }
+
+@media (max-width: 375px) {
+  .why-us {
+    width: auto;
+    height: auto;
+    padding: 16px;
+    text-align: center;
+  }
+  .parent-wu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+  }
+  .child-wu {
+    width: auto;
+    height: 196px;
+    padding: 24px;
+    margin: 12px 2px;
+    text-align: left;
+  }
+  .child-wu img {
+    padding-bottom: 10px;
+  }
+}

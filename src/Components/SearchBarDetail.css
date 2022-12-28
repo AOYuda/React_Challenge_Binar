@@ -1,4 +1,4 @@
-.search-bar-result {
+.search-bar-detail {
   position: absolute;
   top: 220px;
   left: 196px;
@@ -14,19 +14,19 @@
   -webkit-box-shadow: 0 0 3px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
-.nama-mobil-result {
+.nama-mobil-detail {
   width: auto;
   height: auto;
-  margin: 20px 4px 4px 4px;
+  margin: 20px 2px 4px 2px;
 }
-.kategori-result,
-.status-result,
-.harga-result {
+.kategori-detail,
+.status-detail,
+.harga-detail {
   width: auto;
   height: auto;
-  margin: 42px 4px 4px 4px;
+  margin: 42px 2px 4px 2px;
 }
-.nama-mobil-result h6 {
+.nama-mobil-detail h6 {
   margin-bottom: 4px;
   font-family: Arial;
   font-size: 14px;
@@ -35,40 +35,20 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.form-option-result {
-  width: 206px;
+.form-option-detail {
+  width: 238px;
   height: 36px;
   padding: 5px;
   margin: 0px;
 }
-.form-option-harga-result {
-  width: 219px;
-  height: 36px;
-  padding: 5px;
-  margin: 0px;
-}
-.cari-mobil-result {
+.cari-mobil-detail {
   width: auto;
   height: auto;
   margin: 8px;
   display: flex;
   align-content: center;
 }
-.search-bar-result button {
-  width: 92px;
-  height: 36px;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: 700;
-  background: #ffffff;
-  color: #0d28a6;
-  border-style: solid;
-  border-color: #0d28a6;
-  border-radius: 2px;
-  padding: 5px 12px;
-  margin-top: 65px;
-}
-.search-bar-result p {
+.search-bar-detail p {
   margin-bottom: 4px;
   padding-top: 10px;
   font-family: Arial;
@@ -78,7 +58,7 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.search-bar-result option {
+.search-bar-detail option {
   margin-top: 5px;
   font-family: Arial;
   font-size: 12px;
@@ -87,9 +67,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.search-bar-result input {
+.search-bar-detail input {
   height: 36px;
-  width: 208px;
+  width: 238px;
   left: 0px;
   top: 22px;
   border-radius: 2px;
