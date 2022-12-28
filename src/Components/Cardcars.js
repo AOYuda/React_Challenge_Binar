@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React from "react";
 import "./Cardcars.css";
 import Innova from "../Assets/inova.png";
 import { useNavigate } from "react-router-dom";
@@ -10,27 +9,6 @@ const Cardcars = () => {
   const handleNavigateToDetailMobilPage = () => {
     navigate("/detailmobil");
   };
-
-  const [cars, setCars] = useState([]);
-
-  useEffect(() => {
-    const url = "https://bootcamp-rent-cars.herokuapp.com";
-    const config = {
-      headers: {
-        access_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGJjci5pbyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY2NTI0MjUwOX0.ZTx8L1MqJ4Az8KzoeYU2S614EQPnqk6Owv03PUSnkzc",
-      },
-    };
-    axios
-      .get("https://bootcamp-rent-cars.herokuapp.com/admin/v2/order", config)
-      .then((res) => {
-        const temporaryCars = res.data.cars;
-        console.log(temporaryCars);
-        setCars(temporaryCars);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
 
   return (
     <section id="cards-car">
@@ -83,14 +61,6 @@ const Cardcars = () => {
           </div>
         </div>
       </div>
-      {cars?.map((car) => {
-        return (
-          <div key={car.id}>
-            <img src={car.image} alt="gambar-mobilenya" />
-            <h1>{car.name}</h1>
-          </div>
-        );
-      })}
     </section>
   );
 };

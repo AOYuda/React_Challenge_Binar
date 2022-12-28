@@ -12,6 +12,7 @@ import SearchBarResult from "../Components/SearchBarResult";
 import Cardcars from "../Components/Cardcars";
 import SearchBarDetail from "../Components/SearchBarDetail";
 import NarasiDetail from "../Components/NarasiDetail";
+import HeroCariMobil from "../Components/HeroCariMobil";
 
 // NOTES: each time you want to add new page, add it here
 
@@ -22,7 +23,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/carimobil",
-    element: <RenderLayout children={[<Hero />, <SearchBar />]} />,
+    element: <RenderLayout children={[<HeroCariMobil />, <SearchBar />]} />,
   },
   {
     path: "/hasilpencarian",

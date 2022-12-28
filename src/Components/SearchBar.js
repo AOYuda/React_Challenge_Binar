@@ -24,7 +24,7 @@ const SearchBar = () => {
         </select>
       </div>
       <div className="harga">
-        <p>Harga</p>
+        <p>harga</p>
         <select className="form-option-harga" aria-label="Default select example">
           <option selected>Masukan Harga Sewa per Hari</option>
           <option value="1">&lt;Rp. 400.000</option>

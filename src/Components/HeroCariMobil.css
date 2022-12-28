@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  background-color: #f1f3ff;
+  padding-left: 9.4vw;
+  padding-top: 10vh;
+}
+
+.narasi-banner {
+  width: 40vw;
+  height: auto;
+  background-color: #f1f3ff;
+}
+.img-banner img {
+  margin-top: 4px;
+  width: 100%;
+  height: auto;
+  background-color: #f1f3ff;
+}
+.banner h1 {
+  padding-top: 90px;
+  padding-bottom: 10px;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner p {
+  padding-top: 8px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: auto;
+  width: 33vw;
+}

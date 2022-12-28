@@ -30,8 +30,13 @@
   align-items: center;
   align-content: center;
   padding-top: 69px;
+  margin: 5px;
   background-color: #f1f3ff;
+  border: 1px solid #d4d4d4;
   border-radius: 8px;
+  -moz-box-shadow: 0 0 3px #ccc;
+  -webkit-box-shadow: 0 0 3px #ccc;
+  box-shadow: 0 0 5px #ccc;
 }
 .card-container-row {
   width: auto;
@@ -89,11 +94,7 @@
   .card-container-testi {
     width: auto;
     height: auto;
-    align-items: center;
-    align-content: center;
     padding-top: 40px;
-    background-color: #f1f3ff;
-    border-radius: 8px;
   }
   .card-container-column-image {
     padding-top: 0px;
